@@ -2,17 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Task.Models;
 
-namespace Task.Controllers
-{
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ControllerTask : ControllerBase
-    {
-        using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Task.Models;
 
-namespace Task.Controllers
+
+    namespace Task.Controllers
     {
         [Route("api/[controller]")]
         [ApiController]
@@ -56,5 +48,5 @@ namespace Task.Controllers
 
         }
     }
-}
-}
+                
+
